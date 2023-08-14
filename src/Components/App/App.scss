@@ -1,0 +1,87 @@
+.wrapper{
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 80px;
+    row-gap: 3rem;
+        header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 15px;
+                color: #FFF;
+        
+            }
+            .mode{
+                display: flex;
+                cursor: pointer;
+                .dark{
+                    display: none;
+                }
+            }
+        }
+        main{
+            width: 100%;
+            line-height: 0;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.50);
+
+            .info{
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding:0 6px;
+                .items{       
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.194px;
+                    color: #9495A5;
+                    cursor: pointer;
+                }
+                .full_info{
+                    display: flex;
+                    column-gap: 10px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.194px;
+                    color: #9495A5;
+                    cursor: pointer;
+                }
+                .clear{
+
+                    font-family: Josefin Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.194px;
+                    color: #494C6B;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        .footer{
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.194px;
+            color: #9495a5;
+        }
+}
